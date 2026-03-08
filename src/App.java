@@ -9,7 +9,7 @@ public class App {
 
         double celsius;
 
-        System.out.println("Digite a temperatura em Celsius:");
+        System.out.print("Digite a temperatura em Celsius: ");
         celsius = scanner.nextDouble();
 
         double fahrenheit = (celsius * 9.0/5) + 32;
